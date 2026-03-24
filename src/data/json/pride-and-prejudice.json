@@ -1,0 +1,376 @@
+{
+  "slug": "pride-and-prejudice",
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "year": 1813,
+  "coverColor": "#8B5E3C",
+  "synopsis": "A witty exploration of love, reputation, and class in Regency England, following Elizabeth Bennet as she navigates societal expectations and her complicated relationship with the proud Mr. Darcy.",
+  "chapterCount": 61,
+  "genres": ["Romance", "Satire", "Social Commentary"],
+  "characters": [
+    {
+      "id": "elizabeth-bennet",
+      "name": "Elizabeth Bennet",
+      "description": "The spirited and intelligent second Bennet daughter, whose quick wit and strong opinions lead her through misunderstandings toward genuine love.",
+      "role": "protagonist"
+    },
+    {
+      "id": "mr-darcy",
+      "name": "Mr. Darcy",
+      "description": "A wealthy and reserved gentleman whose apparent pride conceals deep feeling and moral integrity.",
+      "role": "protagonist"
+    },
+    {
+      "id": "jane-bennet",
+      "name": "Jane Bennet",
+      "description": "The eldest Bennet sister, gentle and unfailingly kind, whose quiet nature nearly costs her the love of Mr. Bingley.",
+      "role": "supporting"
+    },
+    {
+      "id": "mr-bingley",
+      "name": "Mr. Bingley",
+      "description": "A cheerful and amiable young man of good fortune, easily influenced by his friend Darcy but genuine in his affections.",
+      "role": "supporting"
+    },
+    {
+      "id": "mr-wickham",
+      "name": "Mr. Wickham",
+      "description": "A charming but deceitful officer whose lies about Darcy fuel Elizabeth's prejudice and whose actions threaten the Bennet family.",
+      "role": "antagonist"
+    },
+    {
+      "id": "mrs-bennet",
+      "name": "Mrs. Bennet",
+      "description": "The anxious and melodramatic mother of five daughters, consumed by the need to see them all advantageously married.",
+      "role": "supporting"
+    },
+    {
+      "id": "lady-catherine",
+      "name": "Lady Catherine de Bourgh",
+      "description": "Darcy's imperious aunt who considers herself the arbiter of propriety and opposes any unsuitable match for her nephew.",
+      "role": "antagonist"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "elizabeth-bennet",
+      "target": "mr-darcy",
+      "type": "romantic",
+      "strength": 10,
+      "description": "A love forged through mutual challenge — initial antipathy giving way to deep respect and affection."
+    },
+    {
+      "source": "jane-bennet",
+      "target": "mr-bingley",
+      "type": "romantic",
+      "strength": 8,
+      "description": "A gentle, steady courtship nearly undone by external interference."
+    },
+    {
+      "source": "elizabeth-bennet",
+      "target": "jane-bennet",
+      "type": "familial",
+      "strength": 9,
+      "description": "Devoted sisters and closest confidantes, complementing each other's temperaments."
+    },
+    {
+      "source": "mr-darcy",
+      "target": "mr-bingley",
+      "type": "friendship",
+      "strength": 7,
+      "description": "Close friends whose contrasting dispositions balance one another."
+    },
+    {
+      "source": "elizabeth-bennet",
+      "target": "mr-wickham",
+      "type": "friendship",
+      "strength": 4,
+      "description": "An initial attraction based on Wickham's charm and false confidences."
+    },
+    {
+      "source": "mr-darcy",
+      "target": "mr-wickham",
+      "type": "rivalry",
+      "strength": 8,
+      "description": "A deep enmity rooted in Wickham's betrayal of the Darcy family's trust."
+    },
+    {
+      "source": "elizabeth-bennet",
+      "target": "mrs-bennet",
+      "type": "familial",
+      "strength": 5,
+      "description": "A frequently strained mother-daughter bond, Elizabeth embarrassed by her mother's improprieties."
+    },
+    {
+      "source": "mr-darcy",
+      "target": "lady-catherine",
+      "type": "familial",
+      "strength": 4,
+      "description": "A nephew who respects his aunt's position but ultimately defies her expectations."
+    }
+  ],
+  "themes": [
+    {
+      "name": "Social Class",
+      "frequency": 85,
+      "color": "#6366f1",
+      "keywords": ["rank", "station", "fortune", "connections", "gentility"]
+    },
+    {
+      "name": "Pride",
+      "frequency": 92,
+      "color": "#8b5cf6",
+      "keywords": ["vanity", "dignity", "arrogance", "self-regard", "reputation"]
+    },
+    {
+      "name": "Prejudice",
+      "frequency": 88,
+      "color": "#ec4899",
+      "keywords": ["judgment", "first impressions", "misunderstanding", "bias"]
+    },
+    {
+      "name": "Marriage & Money",
+      "frequency": 78,
+      "color": "#f59e0b",
+      "keywords": ["match", "dowry", "establishment", "alliance", "security"]
+    },
+    {
+      "name": "Wit & Irony",
+      "frequency": 70,
+      "color": "#10b981",
+      "keywords": ["satire", "humor", "repartee", "observation", "double meaning"]
+    }
+  ],
+  "sentimentArc": [
+    { "chapter": 1, "sentiment": 0.4, "label": "A truth universally acknowledged" },
+    { "chapter": 5, "sentiment": 0.3 },
+    { "chapter": 10, "sentiment": 0.2 },
+    { "chapter": 11, "sentiment": 0.5, "label": "Meryton Ball — first sparring" },
+    { "chapter": 16, "sentiment": 0.1, "label": "Wickham's false tale" },
+    { "chapter": 20, "sentiment": -0.1 },
+    { "chapter": 26, "sentiment": -0.2 },
+    { "chapter": 34, "sentiment": -0.7, "label": "Darcy's first proposal — rejected" },
+    { "chapter": 35, "sentiment": -0.3, "label": "Darcy's letter — the truth" },
+    { "chapter": 40, "sentiment": 0.1 },
+    { "chapter": 43, "sentiment": 0.4, "label": "Pemberley visit — new perspective" },
+    { "chapter": 46, "sentiment": -0.6, "label": "Lydia's elopement" },
+    { "chapter": 50, "sentiment": -0.2 },
+    { "chapter": 56, "sentiment": 0.3, "label": "Lady Catherine's visit backfires" },
+    { "chapter": 61, "sentiment": 0.9, "label": "Darcy's second proposal — accepted" }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "A Single Man in Possession of a Good Fortune",
+      "summary": "Mr. Bingley's arrival at Netherfield Park sets the neighborhood abuzz. Mrs. Bennet immediately schemes to introduce her five daughters, while Mr. Bennet teases her mercilessly.",
+      "sentiment": 0.4,
+      "characterIds": ["mrs-bennet", "elizabeth-bennet", "jane-bennet"],
+      "dominantThemes": ["Marriage & Money", "Wit & Irony"],
+      "text": "It is a truth that must sooner or later press upon every household with five unmarried daughters that the arrival of a wealthy bachelor in the neighborhood constitutes an event of the first magnitude. Mrs. Bennet had received the intelligence from Lady Lucas not half an hour before she began her campaign upon Mr. Bennet, and yet she spoke of Netherfield Park as though she had been studying its particulars for a fortnight. Her husband listened with the patient air of a man who has long since made peace with the theatre of domestic life.\n\nElizabeth, who sat reading in the window seat, caught the familiar cadence of her mother's enthusiasm and exchanged a quiet look with Jane. There was something both endearing and exhausting in their mother's certainty that the disposition of every bachelor within three counties was a matter of personal concern. Jane smiled gently, for she could find charity even in the most trying repetitions of Mrs. Bennet's matrimonial ambitions.\n\nMr. Bennet, having tormented his wife with enough evasion to satisfy his sense of humor, at last conceded that he had already paid a visit to the new tenant of Netherfield. The effect upon Mrs. Bennet was immediate and electric. Her nerves, which had been in a most afflicted state only moments before, underwent a miraculous recovery, and she began at once to calculate which of her daughters might be deemed the prettiest in his eyes.\n\nThe evening dissolved into a haze of speculation and half-formed plans, the sort of domestic whirlwind that Elizabeth had learned to navigate with a combination of affection and ironic detachment. She could not help but wonder what manner of man this Mr. Bingley might prove to be, and whether the reality could possibly satisfy the portrait her mother was even now painting in the most flattering colors available to her imagination.",
+      "annotations": [
+        {
+          "id": "pp-1-1",
+          "startOffset": 0,
+          "endOffset": 175,
+          "type": "literary-device",
+          "label": "Ironic Opening",
+          "note": "Echoes the novel's famous opening line, establishing Austen's signature ironic tone that pervades the entire narrative."
+        },
+        {
+          "id": "pp-1-2",
+          "startOffset": 580,
+          "endOffset": 750,
+          "type": "character-development",
+          "label": "Elizabeth's Observational Nature",
+          "note": "Elizabeth is positioned as a watcher and interpreter from her first appearance, foreshadowing her role as the novel's moral center."
+        },
+        {
+          "id": "pp-1-3",
+          "startOffset": 1050,
+          "endOffset": 1250,
+          "type": "theme",
+          "label": "Marriage as Economic Strategy",
+          "note": "Mrs. Bennet's reaction reveals how marriage functions not merely as romance but as the primary economic strategy available to women of limited means."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "An Evening at Netherfield",
+      "summary": "Elizabeth stays at Netherfield to attend to Jane's illness. Her spirited conversations with Darcy deepen their complicated dynamic, blending attraction with antagonism.",
+      "sentiment": 0.5,
+      "characterIds": ["elizabeth-bennet", "mr-darcy", "jane-bennet", "mr-bingley"],
+      "dominantThemes": ["Pride", "Prejudice", "Wit & Irony"],
+      "text": "Elizabeth found herself once more in the drawing room at Netherfield, where the company had arranged itself into the usual tableau of competing diversions. Miss Bingley had claimed the instrument, offering a performance more notable for its determination than its delicacy, while Mr. Darcy sat apart with a book whose pages he turned with suspicious regularity. Elizabeth suspected he was reading no more attentively than she was working at her embroidery.\n\nThe conversation turned, as conversations in such settings invariably do, to the subject of accomplishments. Mr. Darcy declared his standards for a truly accomplished woman to be exacting, and Elizabeth could not resist the observation that he must therefore know very few such paragons. There was in his expression a flicker of something that might have been amusement, or might have been the faintest crack in that formidable composure. She chose to interpret it as the latter, for it pleased her to imagine him discomfited.\n\nJane, recovering steadily above stairs, required Elizabeth's presence less with each passing hour, and yet Elizabeth found reasons to remain. She told herself it was sisterly duty, and perhaps it was, but she could not entirely deny that the sparring matches with Mr. Darcy had become a kind of intellectual exercise she would be sorry to abandon. He was infuriating, certainly, but he was never dull.\n\nAs the evening drew to a close and the candles burned low, Elizabeth caught Darcy regarding her across the room with an intensity that she could not quite account for. She met his gaze steadily, lifting her chin in what she hoped was a gesture of indifference rather than the challenge it more nearly resembled. Whatever Mr. Darcy saw in that look, it caused him to return abruptly to his neglected book.",
+      "annotations": [
+        {
+          "id": "pp-11-1",
+          "startOffset": 320,
+          "endOffset": 480,
+          "type": "literary-device",
+          "label": "Dramatic Irony",
+          "note": "The reader senses Darcy's growing attraction before Elizabeth herself recognizes it, creating a delicious tension between perception and reality."
+        },
+        {
+          "id": "pp-11-2",
+          "startOffset": 800,
+          "endOffset": 1000,
+          "type": "theme",
+          "label": "Female Accomplishment",
+          "note": "The discussion of accomplishments satirizes the narrow criteria by which women were evaluated, while Elizabeth's wit quietly subverts these standards."
+        },
+        {
+          "id": "pp-11-3",
+          "startOffset": 1200,
+          "endOffset": 1400,
+          "type": "character-development",
+          "label": "Intellectual Attraction",
+          "note": "Elizabeth begins to recognize the pleasure she takes in Darcy's company, though she frames it as combative rather than romantic."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "title": "The First Proposal",
+      "summary": "Darcy proposes to Elizabeth at Hunsford, confessing his love while insulting her family's inferiority. Elizabeth refuses him passionately, accusing him of pride and cruelty toward Wickham.",
+      "sentiment": -0.7,
+      "characterIds": ["elizabeth-bennet", "mr-darcy"],
+      "dominantThemes": ["Pride", "Prejudice", "Social Class"],
+      "text": "The rain had made the evening close and oppressive, and Elizabeth was alone when Mr. Darcy entered the room with an expression she had never seen him wear before — a kind of agitated resolve, as though he had fought a long battle with himself and lost. He paced the small parlor twice before speaking, and when the words came, they came in a torrent that left no room for the careful propriety she had come to associate with his character.\n\nHe spoke of his affection — no, his ardent love — but wove into every declaration a catalogue of the obstacles he had struggled to overcome. Her family's want of connections, the degradation of such an alliance, the violence he had done to his own judgment in allowing such feelings to persist. Elizabeth listened with rising indignation, her cheeks burning not with the flattery of the proposal but with the insult of every qualifying phrase.\n\nHer refusal, when it came, matched his proposal in vehemence if not in length. She spared him nothing — not his treatment of Wickham, not his interference with Jane and Bingley, not the manner of his address which had made his contempt for her family the very foundation of his declaration. She watched the color drain from his face and felt a satisfaction that was already beginning to curdle into something less comfortable.\n\nHe left the room without another word, and Elizabeth sank into a chair, trembling with emotion she could not entirely name. She had been right to refuse him — of this she was certain. But certainty, she was beginning to discover, was not always the same thing as peace of mind.",
+      "annotations": [
+        {
+          "id": "pp-34-1",
+          "startOffset": 0,
+          "endOffset": 200,
+          "type": "foreshadowing",
+          "label": "Pathetic Fallacy",
+          "note": "The oppressive weather mirrors the emotional storm about to break, a classic device that here signals the novel's pivotal crisis."
+        },
+        {
+          "id": "pp-34-2",
+          "startOffset": 500,
+          "endOffset": 750,
+          "type": "theme",
+          "label": "Class Consciousness in Love",
+          "note": "Darcy's proposal perfectly embodies the novel's central tension: genuine feeling constrained and distorted by social hierarchy."
+        },
+        {
+          "id": "pp-34-3",
+          "startOffset": 1100,
+          "endOffset": 1350,
+          "type": "character-development",
+          "label": "Seeds of Self-Doubt",
+          "note": "Elizabeth's wavering certainty marks the beginning of her own journey toward recognizing her prejudice — the first crack in her self-assurance."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "title": "Lady Catherine's Intervention",
+      "summary": "Lady Catherine de Bourgh arrives at Longbourn to demand Elizabeth promise never to accept Darcy. Elizabeth's defiant refusal inadvertently gives Darcy hope that his feelings might now be returned.",
+      "sentiment": 0.3,
+      "characterIds": ["elizabeth-bennet", "lady-catherine"],
+      "dominantThemes": ["Social Class", "Pride"],
+      "text": "Lady Catherine arrived at Longbourn with all the ceremony of a general marshaling forces for a decisive engagement. She refused refreshment, declined to sit, and launched into her purpose with a directness that Elizabeth might have admired under different circumstances. The promise she demanded was simple enough: that Elizabeth would never accept an offer of marriage from Mr. Darcy.\n\nElizabeth felt the blood rise to her face, but her voice remained steady. She would make no such promise. She would not be intimidated by rank, by fortune, or by the presumption that her inferior birth disqualified her from any happiness she might be fortunate enough to secure. Lady Catherine's astonishment at being refused was genuine and spectacular — she was a woman for whom defiance was as foreign as poverty.\n\nThe interview concluded with mutual dissatisfaction, Lady Catherine sweeping from the house with dire predictions of disgrace and Elizabeth watching her departure with a tumult of feelings that had little to do with Lady Catherine herself. For in being forced to declare what she would not promise, Elizabeth had been forced to confront what she might, in fact, wish for. The question Lady Catherine had meant to settle had instead thrown it wide open.\n\nThat night, as the house settled into its customary quiet, Elizabeth sat in the darkened parlor and allowed herself to think of Darcy without the armor of resentment she had worn so long. She thought of Pemberley, of his letter, of every revised opinion and grudging concession, and she understood at last that the feeling she had been calling irritation was something else entirely.",
+      "annotations": [
+        {
+          "id": "pp-56-1",
+          "startOffset": 0,
+          "endOffset": 180,
+          "type": "literary-device",
+          "label": "Military Metaphor",
+          "note": "Lady Catherine is rendered in mock-heroic military terms, satirizing her self-importance while underscoring the genuine power she represents."
+        },
+        {
+          "id": "pp-56-2",
+          "startOffset": 700,
+          "endOffset": 950,
+          "type": "theme",
+          "label": "Defiance of Class Hierarchy",
+          "note": "Elizabeth's refusal to defer to Lady Catherine's rank represents the novel's most direct challenge to the rigid class system."
+        },
+        {
+          "id": "pp-56-3",
+          "startOffset": 1300,
+          "endOffset": 1550,
+          "type": "character-development",
+          "label": "Elizabeth's Self-Recognition",
+          "note": "Elizabeth finally names her feelings honestly, completing the arc of self-discovery that began with Darcy's letter."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "title": "Settled Happiness",
+      "summary": "Elizabeth and Darcy's engagement is celebrated. The novel closes by surveying the fates of its characters and affirming that love built on mutual understanding endures.",
+      "sentiment": 0.9,
+      "characterIds": ["elizabeth-bennet", "mr-darcy", "jane-bennet", "mr-bingley", "mrs-bennet"],
+      "dominantThemes": ["Marriage & Money", "Pride", "Wit & Irony"],
+      "text": "The happiness that settled over Longbourn in those weeks was of a quality Mrs. Bennet had long imagined but never quite managed to specify. Two daughters engaged to men of fortune — it was a triumph that exceeded even her most optimistic calculations, and she moved through the house in a state of bewildered delight, alternately congratulating herself on her own management and weeping with joy at her daughters' good luck.\n\nElizabeth and Darcy walked together in the shrubbery, as had become their habit, and spoke with the freedom of two people who have survived the worst of misunderstanding and emerged on the other side. She teased him about his pride; he confessed that her rejection had been the making of him. There was in their exchanges a quality of candor that neither had known before — the exhilarating honesty of two minds that had learned to trust each other the hard way.\n\nJane and Bingley, established at Netherfield with all the tranquility their temperaments ensured, provided a gentler counterpoint to Elizabeth and Darcy's more spirited union. If their happiness lacked the dramatic arc of the other couple's journey, it possessed a steadiness that was its own reward. Mr. Bennet remarked dryly that he was pleased to have at least two sons-in-law he could bear to have in the same room with him.\n\nAs the year turned and the households took shape, Elizabeth reflected that the distance between Longbourn and Pemberley was measured not merely in miles but in the vast territory of feeling she had traversed to arrive here. She had been wrong about Darcy, and he about her, and in their mutual correction lay the foundation of something that promised to outlast the initial blaze of courtship. It was not a fairy tale ending — it was better, because it was earned.",
+      "annotations": [
+        {
+          "id": "pp-61-1",
+          "startOffset": 0,
+          "endOffset": 220,
+          "type": "literary-device",
+          "label": "Comic Resolution",
+          "note": "Mrs. Bennet's characteristically over-the-top reaction provides comic relief while satirizing the mercenary view of marriage the novel has been critiquing."
+        },
+        {
+          "id": "pp-61-2",
+          "startOffset": 500,
+          "endOffset": 700,
+          "type": "theme",
+          "label": "Mutual Transformation",
+          "note": "The resolution affirms that genuine love requires both parties to change — Darcy's pride and Elizabeth's prejudice have both been tempered."
+        },
+        {
+          "id": "pp-61-3",
+          "startOffset": 1400,
+          "endOffset": 1650,
+          "type": "character-development",
+          "label": "Earned Happiness",
+          "note": "Elizabeth's final reflection insists on the difference between romantic fantasy and the harder, more durable happiness of genuine self-knowledge."
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I could easily forgive his pride, if he had not mortified mine.",
+      "chapter": 5,
+      "character": "Elizabeth Bennet",
+      "significance": "Reveals Elizabeth's own pride while she accuses Darcy of the same fault — the central irony of the novel in miniature."
+    },
+    {
+      "text": "Vanity and pride are different things, though the words are often used synonymously. A person may be proud without being vain.",
+      "chapter": 5,
+      "character": "Mary Bennet",
+      "significance": "A rare moment of insight from the most overlooked Bennet sister, articulating the thematic distinction the novel will spend sixty chapters exploring."
+    },
+    {
+      "text": "In vain I have struggled. It will not do. My feelings will not be repressed. You must allow me to tell you how ardently I admire and love you.",
+      "chapter": 34,
+      "character": "Mr. Darcy",
+      "significance": "The disastrous first proposal — passion expressed through the language of reluctance, perfectly capturing Darcy's internal conflict between feeling and propriety."
+    },
+    {
+      "text": "Till this moment I never knew myself.",
+      "chapter": 36,
+      "character": "Elizabeth Bennet",
+      "significance": "The novel's moment of anagnorisis — Elizabeth recognizing that her confident judgments have been distorted by the very prejudice she accused Darcy of harboring."
+    },
+    {
+      "text": "You are too generous to trifle with me. If your feelings are still what they were last April, tell me so at once.",
+      "chapter": 58,
+      "character": "Mr. Darcy",
+      "significance": "The vulnerability of the second proposal stands in stark contrast to the arrogance of the first, measuring the distance Darcy has traveled."
+    },
+    {
+      "text": "I am the happiest creature in the world. Perhaps other people have said so before, but not one with such justice.",
+      "chapter": 59,
+      "character": "Elizabeth Bennet",
+      "significance": "Elizabeth's characteristic self-awareness even in joy — she can laugh at herself even while recognizing the genuine depth of her happiness."
+    }
+  ]
+}

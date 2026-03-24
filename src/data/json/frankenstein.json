@@ -1,0 +1,326 @@
+{
+  "slug": "frankenstein",
+  "title": "Frankenstein; or, The Modern Prometheus",
+  "author": "Mary Shelley",
+  "year": 1818,
+  "coverColor": "#1a3a2a",
+  "synopsis": "A young scientist, Victor Frankenstein, creates a sapient creature through an unorthodox experiment. Horrified by what he has made, Victor abandons the creature, setting in motion a tragic chain of loneliness, vengeance, and destruction that consumes everyone he loves. Framed as a series of nested narratives told through letters, the novel explores the consequences of unchecked ambition, the nature of monstrosity, and the desperate human need for companionship.",
+  "chapterCount": 24,
+  "genres": ["Gothic Fiction", "Science Fiction", "Horror", "Romanticism", "Philosophical Fiction"],
+  "characters": [
+    {
+      "id": "victor",
+      "name": "Victor Frankenstein",
+      "description": "A brilliant but reckless natural philosopher from Geneva whose obsessive pursuit of the secret of life leads him to create a living being, only to be destroyed by the consequences of his hubris.",
+      "role": "protagonist"
+    },
+    {
+      "id": "creature",
+      "name": "The Creature",
+      "description": "Victor's creation, an eight-foot-tall being of immense strength and intelligence who, rejected by his creator and all of humanity, turns from gentle curiosity to murderous vengeance.",
+      "role": "antagonist"
+    },
+    {
+      "id": "elizabeth",
+      "name": "Elizabeth Lavenza",
+      "description": "Victor's adopted cousin and beloved, a gentle and devoted woman whose unwavering affection for Victor cannot shield her from the catastrophe his ambition has unleashed.",
+      "role": "supporting"
+    },
+    {
+      "id": "clerval",
+      "name": "Henry Clerval",
+      "description": "Victor's closest friend and foil, a lover of chivalric romance and Eastern languages whose warmth and imagination stand in stark contrast to Victor's dangerous scientific obsessions.",
+      "role": "supporting"
+    },
+    {
+      "id": "walton",
+      "name": "Robert Walton",
+      "description": "An ambitious Arctic explorer whose letters to his sister frame the entire narrative; he mirrors Victor's dangerous thirst for forbidden knowledge but ultimately chooses a different path.",
+      "role": "supporting"
+    },
+    {
+      "id": "alphonse",
+      "name": "Alphonse Frankenstein",
+      "description": "Victor's loving and dignified father, a retired syndic of Geneva who is gradually broken by the succession of tragedies that befall his family.",
+      "role": "supporting"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "victor",
+      "target": "creature",
+      "type": "rivalry",
+      "strength": 10,
+      "description": "Creator and creation locked in a cycle of guilt, abandonment, and vengeance that drives the novel's central conflict."
+    },
+    {
+      "source": "victor",
+      "target": "elizabeth",
+      "type": "romantic",
+      "strength": 8,
+      "description": "Childhood companions destined for marriage, though Victor's obsessions repeatedly delay their union and ultimately doom Elizabeth."
+    },
+    {
+      "source": "victor",
+      "target": "clerval",
+      "type": "friendship",
+      "strength": 9,
+      "description": "Lifelong best friends whose contrasting temperaments highlight Victor's descent into destructive obsession."
+    },
+    {
+      "source": "victor",
+      "target": "alphonse",
+      "type": "familial",
+      "strength": 7,
+      "description": "A devoted father-son bond strained by Victor's secrecy and the mounting tragedies caused by the creature."
+    },
+    {
+      "source": "victor",
+      "target": "walton",
+      "type": "mentor",
+      "strength": 6,
+      "description": "Victor serves as a cautionary figure to Walton, warning him of the perils of unchecked ambition through the tale of his own ruin."
+    },
+    {
+      "source": "creature",
+      "target": "elizabeth",
+      "type": "rivalry",
+      "strength": 8,
+      "description": "The creature targets Elizabeth as the ultimate instrument of revenge against Victor, destroying what his creator loves most."
+    },
+    {
+      "source": "creature",
+      "target": "clerval",
+      "type": "rivalry",
+      "strength": 7,
+      "description": "Clerval becomes collateral in the creature's campaign of vengeance, murdered to inflict maximum suffering on Victor."
+    },
+    {
+      "source": "elizabeth",
+      "target": "alphonse",
+      "type": "familial",
+      "strength": 7,
+      "description": "Elizabeth is raised as a daughter in the Frankenstein household, and Alphonse regards her with deep parental affection."
+    }
+  ],
+  "themes": [
+    {
+      "name": "Ambition",
+      "frequency": 90,
+      "color": "#ef4444",
+      "keywords": ["glory", "discovery", "creation", "power", "knowledge", "obsession", "hubris", "Prometheus"]
+    },
+    {
+      "name": "Isolation",
+      "frequency": 85,
+      "color": "#6366f1",
+      "keywords": ["solitude", "abandonment", "exile", "loneliness", "rejection", "alienation", "outcast"]
+    },
+    {
+      "name": "Nature vs Nurture",
+      "frequency": 75,
+      "color": "#10b981",
+      "keywords": ["education", "upbringing", "innocence", "corruption", "society", "compassion", "cruelty"]
+    },
+    {
+      "name": "Monstrosity",
+      "frequency": 82,
+      "color": "#8b5cf6",
+      "keywords": ["horror", "appearance", "ugliness", "fear", "abomination", "wretch", "daemon", "fiend"]
+    },
+    {
+      "name": "Knowledge",
+      "frequency": 78,
+      "color": "#f59e0b",
+      "keywords": ["science", "learning", "secrets", "nature", "philosophy", "discovery", "forbidden", "enlightenment"]
+    }
+  ],
+  "sentimentArc": [
+    { "chapter": 1, "sentiment": 0.6, "label": "Walton's hopeful Arctic voyage" },
+    { "chapter": 3, "sentiment": 0.4, "label": "Victor's mother dies; he departs for Ingolstadt" },
+    { "chapter": 5, "sentiment": -0.7, "label": "The creature is brought to life" },
+    { "chapter": 7, "sentiment": -0.6, "label": "William's murder; Justine accused" },
+    { "chapter": 9, "sentiment": -0.8, "label": "Justine executed; Victor's guilt deepens" },
+    { "chapter": 11, "sentiment": 0.1, "label": "The creature begins his tale" },
+    { "chapter": 13, "sentiment": 0.3, "label": "The creature learns language and empathy from the De Laceys" },
+    { "chapter": 15, "sentiment": -0.5, "label": "The creature is violently rejected by the De Laceys" },
+    { "chapter": 17, "sentiment": 0.0, "label": "Victor reluctantly agrees to create a companion" },
+    { "chapter": 20, "sentiment": -0.6, "label": "Victor destroys the half-finished mate; Clerval murdered" },
+    { "chapter": 23, "sentiment": -0.9, "label": "Elizabeth strangled on the wedding night" },
+    { "chapter": 24, "sentiment": -1.0, "label": "Victor dies; the creature vanishes into the Arctic darkness" }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "Letter I: To Mrs. Saville, England",
+      "summary": "Robert Walton writes to his sister Margaret from St. Petersburg, describing his fervent desire to reach the North Pole and discover the secrets of magnetism and a possible passage across the Arctic seas. His letters reveal both his restless ambition and his longing for a sympathetic companion who might share and temper his dreams.",
+      "sentiment": 0.6,
+      "characterIds": ["walton"],
+      "dominantThemes": ["Ambition", "Isolation", "Knowledge"],
+      "text": "The frozen harbour of St. Petersburg stretched beneath a sky the colour of old pewter, and Robert Walton stood at the rail of the packet-ship with a letter half-written in his cabin below. He had abandoned London, poetry, and the mild comforts of his sister's hearth for this: a passage to the uttermost north, where no mariner had yet pressed his keel against the ice. The ambition that coursed through him was not merely a desire for fame but a hunger so deep it felt like a second heartbeat, urging him toward the pole as iron is drawn toward the lodestone.\n\nHe had confided little of his inner turmoil to Margaret. How could she understand that each league of frozen sea he crossed quieted something restless in his soul, even as it sharpened his solitude? The sailors he had hired were sturdy men, capable and coarse, yet not one among them could he call a friend. Walton craved a companion of sensibility—someone whose mind might meet his own at the meridian of wonder and check him before wonder turned to recklessness.\n\nAs the ship creaked against the dock and the first powdery snow of the season drifted over the gunwale, Walton felt the old exhilaration kindle. Somewhere beyond the horizon lay a continent of ice and, perhaps, a secret that would elevate his name above every explorer who had come before. He sealed the letter with a hand that trembled—not from cold, but from the magnitude of what he dared to hope.",
+      "annotations": [
+        {
+          "id": "ann-1-1",
+          "startOffset": 0,
+          "endOffset": 98,
+          "type": "foreshadowing",
+          "label": "Arctic Setting",
+          "note": "The frozen harbour foreshadows the desolate Arctic landscape where Victor will ultimately perish and the creature will disappear."
+        },
+        {
+          "id": "ann-1-2",
+          "startOffset": 310,
+          "endOffset": 505,
+          "type": "theme",
+          "label": "Dangerous Ambition",
+          "note": "Walton's ambition is described in visceral, almost pathological terms—a 'second heartbeat'—mirroring the obsessive drive that will consume Victor Frankenstein."
+        },
+        {
+          "id": "ann-1-3",
+          "startOffset": 507,
+          "endOffset": 780,
+          "type": "character-development",
+          "label": "Walton's Loneliness",
+          "note": "Walton's yearning for an intellectual companion establishes the theme of isolation and prepares the reader for Victor, who will arrive as the very friend Walton desires."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Chapter 5: The Creation",
+      "summary": "On a dreary November night, Victor Frankenstein infuses the spark of life into his creature. The moment of triumph instantly curdles into revulsion as he beholds the being's watery eyes and yellow skin. Victor flees in horror, wanders the streets of Ingolstadt in a delirium, and is found by his friend Henry Clerval, who has just arrived at the university.",
+      "sentiment": -0.7,
+      "characterIds": ["victor", "creature", "clerval"],
+      "dominantThemes": ["Ambition", "Monstrosity", "Knowledge"],
+      "text": "It was on a dreary night of November that Victor beheld the accomplishment of his toils. The instruments of galvanic life stood arrayed about the workshop like the furnishings of some unholy chapel, and at their centre lay the form he had stitched together from charnel houses and dissecting rooms over two years of feverish labour. When the dull yellow eye of the creature opened, a shudder of revulsion passed through Victor's frame so violent that it seemed his own skeleton might tear free of the flesh that bound it. The beauty he had imagined—the noble proportions, the lustrous hair—resolved into a grotesquerie whose every feature mocked the Promethean dream that had driven him.\n\nVictor staggered from the chamber without a word, as though silence could annul the act. The stairwell was black; the rain clattered against the windows of the university like the fingernails of something seeking entry. He found himself in the courtyard, then the street, then a quarter of Ingolstadt he did not recognize, his breath coming in ragged sobs that passersby mistook for drunkenness. Every shadow seemed to carry the outline of the creature's lumbering form, every gust of wind the wheeze of its first terrible inhalation.\n\nIt was Clerval who rescued him from the brink of collapse. Henry had arrived that very morning, cheerful and unsuspecting, his pockets stuffed with letters from Elizabeth and Alphonse. He found Victor shivering in a doorway, eyes wild, and bore him back to his lodgings with the patient tenderness of a man accustomed to his friend's excesses. Victor clutched at Clerval's arm as though it were the last solid thing in a world that had begun, irrevocably, to come apart.",
+      "annotations": [
+        {
+          "id": "ann-5-1",
+          "startOffset": 0,
+          "endOffset": 55,
+          "type": "literary-device",
+          "label": "Pathetic Fallacy",
+          "note": "The 'dreary night of November' mirrors Victor's psychological state and sets the gothic atmosphere for the creation scene."
+        },
+        {
+          "id": "ann-5-2",
+          "startOffset": 315,
+          "endOffset": 550,
+          "type": "theme",
+          "label": "Promethean Hubris",
+          "note": "The explicit reference to 'Promethean dream' ties Victor's act to the novel's subtitle and the myth of overreaching mortals punished for stealing divine power."
+        },
+        {
+          "id": "ann-5-3",
+          "startOffset": 553,
+          "endOffset": 700,
+          "type": "character-development",
+          "label": "Victor's Abandonment",
+          "note": "Victor's immediate flight from his creation is the original sin of the novel—the act of parental rejection that sets every subsequent tragedy in motion."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "title": "Chapter 11: The Creature's Narrative Begins",
+      "summary": "The creature tells Victor of his earliest days: waking alone in the forest near Ingolstadt, overwhelmed by sensation, learning to distinguish light from darkness, warmth from cold. He discovers fire, forages for food, and eventually finds the hovel adjoining the De Lacey cottage, where he begins to observe the family within.",
+      "sentiment": 0.1,
+      "characterIds": ["creature", "victor"],
+      "dominantThemes": ["Isolation", "Nature vs Nurture", "Knowledge"],
+      "text": "The creature spoke, and his voice was low and measured, as though he had rehearsed each syllable in the solitude of a thousand frozen nights. He told of waking in a world that offered no name for what he was—neither man nor beast, but something stitched between the two, gasping beneath a canopy of unfamiliar stars. Every sensation had arrived without context: the cold bit at his skin and he did not know it was called cold; the moonlight fell across his enormous hands and he did not know they were monstrous. He was an infant in a titan's body, groping through a forest that rustled with creatures wiser than himself.\n\nIn time he learned the grammar of survival. Fire was a revelation—he thrust his hand into the embers and screamed, then sat for hours watching the flames perform their bright, indifferent dance. He discovered that berries could nourish and that certain roots turned his stomach to agony. Each lesson was paid for in pain, and there was no parent to soften the pedagogy. The forest taught him as it teaches all wild things: through consequence, without mercy, and utterly without love.\n\nIt was the cottage of the De Laceys that opened the door to his deeper education. Crouched in the wretched hovel that leaned against their wall, he pressed his eye to a chink in the timber and beheld a scene that pierced him more keenly than any winter wind: a blind old man playing a violin, a young woman weeping softly, a youth reading aloud from a book whose words the creature could not yet comprehend. Here was warmth of a kind that fire could not provide, and he resolved to understand it or perish in the attempt.",
+      "annotations": [
+        {
+          "id": "ann-11-1",
+          "startOffset": 0,
+          "endOffset": 120,
+          "type": "literary-device",
+          "label": "Nested Narrative Voice",
+          "note": "The creature's eloquent narration contrasts with his monstrous appearance, forcing the reader to reconsider assumptions about who is truly the 'monster' in the story."
+        },
+        {
+          "id": "ann-11-2",
+          "startOffset": 555,
+          "endOffset": 820,
+          "type": "theme",
+          "label": "Nature vs Nurture",
+          "note": "The creature's self-education through pain—without parental guidance—directly illustrates the novel's exploration of whether character is innate or shaped by experience."
+        },
+        {
+          "id": "ann-11-3",
+          "startOffset": 822,
+          "endOffset": 1100,
+          "type": "foreshadowing",
+          "label": "The De Lacey Hope",
+          "note": "The creature's desperate yearning for the warmth of human connection foreshadows the devastating rejection he will suffer when the De Laceys discover his appearance."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "title": "Chapter 24: The Final Pursuit",
+      "summary": "Victor pursues the creature into the Arctic wastes, driven by vengeance after the deaths of Elizabeth, Clerval, and his father. Rescued by Walton's ship, Victor tells the end of his tale and dies. The creature appears over Victor's body, delivers a final lamentation, and departs across the ice to end his own existence on a funeral pyre.",
+      "sentiment": -1.0,
+      "characterIds": ["victor", "creature", "walton"],
+      "dominantThemes": ["Ambition", "Isolation", "Monstrosity"],
+      "text": "The Arctic closed around the ship like a fist of white iron, and Victor Frankenstein lay in the narrow cabin with death settling over him as quietly as snowfall. He had chased the creature across frozen rivers and mountain passes, through forests stripped bare by winter and across seas that cracked and groaned beneath his sledge. Now the chase was finished—not because the quarry had been caught, but because the hunter's body had at last refused the terrible demands of his will. Walton sat at the bedside and watched the light leave his friend's eyes, and felt in that moment the full, unbearable weight of a cautionary tale he had not asked to receive.\n\nVictor's last words were a whisper threaded with the old fire. He spoke of glory still, even as his lips turned the colour of the ice outside the porthole—warning Walton in one breath and urging him toward discovery in the next, as though ambition were a disease whose sufferer could diagnose but never cure. When silence finally took him, Walton could not bring himself to close the dead man's eyes. They stared at the low ceiling of the cabin with an expression that was not peace but exhaustion, the look of a man who had run the full circumference of his obsession and arrived back where he started, empty-handed and alone.\n\nIt was the creature who came last. He climbed through the cabin window like a nightmare given flesh, and stood over the body of his maker with a grief so vast it filled the small room until Walton could scarcely breathe. The creature wept—great, heaving sobs that shook his massive frame—and spoke of a sorrow beyond revenge, beyond hatred, beyond even the loneliness that had driven him to murder. He would go north, he said, to the very pole, and build a pyre of the driftwood and ice, and let the flames consume the wretched form that no living soul had ever loved. Then he was gone through the window, a dark shape diminishing across the white expanse, until the fog swallowed him and there was nothing left but the silence of the ice and the creak of the ship and the unbearable knowledge that the story was, at last, complete.",
+      "annotations": [
+        {
+          "id": "ann-24-1",
+          "startOffset": 0,
+          "endOffset": 60,
+          "type": "literary-device",
+          "label": "Metaphor of Entrapment",
+          "note": "The Arctic closing 'like a fist of white iron' encapsulates the inescapable consequences of Victor's ambition—nature itself has become his prison."
+        },
+        {
+          "id": "ann-24-2",
+          "startOffset": 560,
+          "endOffset": 810,
+          "type": "character-development",
+          "label": "Victor's Unresolved Ambition",
+          "note": "Even on his deathbed, Victor oscillates between warning and urging Walton onward, revealing that his obsessive ambition persists beyond the point of reason—a final testament to the incurable nature of his flaw."
+        },
+        {
+          "id": "ann-24-3",
+          "startOffset": 1050,
+          "endOffset": 1400,
+          "type": "theme",
+          "label": "The Creature's Humanity",
+          "note": "The creature's profound grief over Victor's corpse inverts the novel's central question: the 'monster' displays deeper human feeling than his creator ever managed, completing Shelley's argument about the true nature of monstrosity."
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I ought to be thy Adam, but I am rather the fallen angel, whom thou drivest from joy for no misdeed.",
+      "chapter": 11,
+      "character": "The Creature",
+      "significance": "The creature frames his abandonment in Miltonic terms, casting Victor as a negligent God and himself as an innocent cast out of paradise, encapsulating the novel's themes of creation, rejection, and moral responsibility."
+    },
+    {
+      "text": "Beware; for I am fearless, and therefore powerful.",
+      "chapter": 20,
+      "character": "The Creature",
+      "significance": "This declaration reveals that the creature's power derives not from his physical strength but from his total isolation—having nothing left to lose, he becomes the most dangerous force in the novel."
+    },
+    {
+      "text": "Learn from me, if not by my precepts, at least by my example, how dangerous is the acquirement of knowledge.",
+      "chapter": 5,
+      "character": "Victor Frankenstein",
+      "significance": "Victor's warning to Walton serves as the moral thesis of the novel, linking the pursuit of forbidden knowledge to inevitable destruction and echoing the Promethean myth of the subtitle."
+    },
+    {
+      "text": "Nothing is so painful to the human mind as a great and sudden change.",
+      "chapter": 23,
+      "character": "Victor Frankenstein",
+      "significance": "Spoken after Elizabeth's murder, this reflection captures the psychological devastation that runs through the novel and speaks to the Romantic preoccupation with the limits of human endurance."
+    },
+    {
+      "text": "Even broken in spirit as he is, no one can feel more deeply than he does the beauties of nature. The starry sky, the sea, and every sight afforded by these wonderful regions, seems still to have the power of elevating his soul from earth.",
+      "chapter": 24,
+      "character": "Robert Walton",
+      "significance": "Walton's observation of Victor near death reveals the Romantic belief that nature offers a sublime consolation beyond human suffering, and positions Victor as a tragic figure still capable of transcendence."
+    }
+  ]
+}
