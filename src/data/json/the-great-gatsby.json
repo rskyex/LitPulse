@@ -1,0 +1,322 @@
+{
+  "slug": "the-great-gatsby",
+  "title": "The Great Gatsby",
+  "author": "F. Scott Fitzgerald",
+  "year": 1925,
+  "coverColor": "#1a1a4e",
+  "synopsis": "A haunting portrait of the Jazz Age, told through Nick Carraway's eyes as he witnesses the rise and fall of the mysterious Jay Gatsby and his obsessive pursuit of the American Dream.",
+  "chapterCount": 9,
+  "genres": ["Modernist Fiction", "Tragedy", "Social Commentary"],
+  "characters": [
+    {
+      "id": "jay-gatsby",
+      "name": "Jay Gatsby",
+      "description": "A self-invented millionaire whose lavish parties and mysterious past conceal a single-minded devotion to recapturing a lost love.",
+      "role": "protagonist"
+    },
+    {
+      "id": "nick-carraway",
+      "name": "Nick Carraway",
+      "description": "The novel's narrator, a midwestern bond salesman drawn into Gatsby's orbit, whose reserve masks a growing moral disillusionment.",
+      "role": "supporting"
+    },
+    {
+      "id": "daisy-buchanan",
+      "name": "Daisy Buchanan",
+      "description": "Nick's cousin and Gatsby's lost love, whose charm and carelessness embody the allure and emptiness of old money.",
+      "role": "supporting"
+    },
+    {
+      "id": "tom-buchanan",
+      "name": "Tom Buchanan",
+      "description": "Daisy's brutish husband, a former athlete clinging to inherited wealth and racial anxieties as bulwarks against irrelevance.",
+      "role": "antagonist"
+    },
+    {
+      "id": "jordan-baker",
+      "name": "Jordan Baker",
+      "description": "A professional golfer and Daisy's friend, cool and dishonest, who briefly becomes Nick's romantic interest.",
+      "role": "supporting"
+    },
+    {
+      "id": "george-wilson",
+      "name": "George Wilson",
+      "description": "A struggling garage owner in the Valley of Ashes, whose desperation and grief drive the novel's tragic climax.",
+      "role": "supporting"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "jay-gatsby",
+      "target": "daisy-buchanan",
+      "type": "romantic",
+      "strength": 10,
+      "description": "Gatsby's all-consuming love for Daisy — less a relationship than a five-year act of devotion to an idealized memory."
+    },
+    {
+      "source": "daisy-buchanan",
+      "target": "tom-buchanan",
+      "type": "romantic",
+      "strength": 5,
+      "description": "A marriage of convenience and habit, held together by wealth, inertia, and a shared carelessness."
+    },
+    {
+      "source": "nick-carraway",
+      "target": "jay-gatsby",
+      "type": "friendship",
+      "strength": 8,
+      "description": "Nick is drawn to Gatsby's romantic idealism while simultaneously seeing through it — admiration shadowed by pity."
+    },
+    {
+      "source": "nick-carraway",
+      "target": "jordan-baker",
+      "type": "romantic",
+      "strength": 4,
+      "description": "A cool, ambivalent attraction that mirrors Nick's broader disenchantment with the East Coast world."
+    },
+    {
+      "source": "nick-carraway",
+      "target": "daisy-buchanan",
+      "type": "familial",
+      "strength": 4,
+      "description": "Cousins whose relationship becomes strained as Nick witnesses Daisy's moral carelessness."
+    },
+    {
+      "source": "jay-gatsby",
+      "target": "tom-buchanan",
+      "type": "rivalry",
+      "strength": 9,
+      "description": "New money versus old money — Gatsby's reinvented self against Tom's inherited certainty."
+    },
+    {
+      "source": "george-wilson",
+      "target": "tom-buchanan",
+      "type": "rivalry",
+      "strength": 6,
+      "description": "Wilson unknowingly shares his wife with Tom; their final encounter redirects Wilson's vengeance toward Gatsby."
+    }
+  ],
+  "themes": [
+    {
+      "name": "American Dream",
+      "frequency": 95,
+      "color": "#f59e0b",
+      "keywords": ["green light", "self-invention", "aspiration", "promise", "failure"]
+    },
+    {
+      "name": "Wealth & Class",
+      "frequency": 88,
+      "color": "#6366f1",
+      "keywords": ["old money", "new money", "parties", "privilege", "Valley of Ashes"]
+    },
+    {
+      "name": "Illusion vs Reality",
+      "frequency": 82,
+      "color": "#8b5cf6",
+      "keywords": ["performance", "facade", "memory", "reinvention", "deception"]
+    },
+    {
+      "name": "Moral Decay",
+      "frequency": 76,
+      "color": "#ef4444",
+      "keywords": ["carelessness", "corruption", "adultery", "violence", "emptiness"]
+    },
+    {
+      "name": "Time & Memory",
+      "frequency": 72,
+      "color": "#10b981",
+      "keywords": ["past", "nostalgia", "clock", "repetition", "loss"]
+    }
+  ],
+  "sentimentArc": [
+    { "chapter": 1, "sentiment": 0.3, "label": "Nick arrives on Long Island" },
+    { "chapter": 2, "sentiment": -0.2, "label": "Valley of Ashes — Tom's affair" },
+    { "chapter": 3, "sentiment": 0.5, "label": "Gatsby's magnificent party" },
+    { "chapter": 4, "sentiment": 0.2, "label": "Gatsby's past revealed" },
+    { "chapter": 5, "sentiment": 0.7, "label": "Gatsby and Daisy reunited" },
+    { "chapter": 6, "sentiment": 0.1, "label": "The dream begins to crack" },
+    { "chapter": 7, "sentiment": -0.6, "label": "Plaza Hotel confrontation" },
+    { "chapter": 8, "sentiment": -0.8, "label": "Gatsby is murdered" },
+    { "chapter": 9, "sentiment": -0.5, "label": "Gatsby's empty funeral" }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "West Egg, Summer 1922",
+      "summary": "Nick Carraway settles into his modest cottage next to Gatsby's mansion. A dinner at the Buchanans' introduces Daisy's charm and Tom's brutality, and Nick glimpses Gatsby reaching toward a green light across the bay.",
+      "sentiment": 0.3,
+      "characterIds": ["nick-carraway", "daisy-buchanan", "tom-buchanan", "jordan-baker"],
+      "dominantThemes": ["Wealth & Class", "American Dream"],
+      "text": "In my younger and more impressionable years, I resolved to reserve all judgments — a resolution I have since broken with the regularity of a man who knows he should quit smoking but finds the habit too deeply woven into his evenings. I had come East to learn the bond business, which is to say I had come East because the Middle West, after the war, felt like a room someone had forgotten to air out. My cottage on West Egg was modest, overshadowed by the colossal mansion next door, and I paid eighty dollars a month for the privilege of living in its shadow.\n\nThe Buchanans lived across the bay in East Egg, in a house that seemed designed to remind visitors of their own insufficiency. Tom met me on the porch with the restless energy of a man who had peaked at twenty-one and spent the subsequent decade searching for a comparable thrill. He had been a football star at New Haven, and his body still carried the authority of that former greatness, though it had curdled into something merely physical, a blunt instrument looking for something to strike.\n\nDaisy was another matter entirely. She spoke in a voice that seemed to promise that she had just done something wonderful and secret, and that wonderful secret things were about to happen to you as well. Her laugh was the kind of sound that made you briefly forget that laughter required a reason. Jordan Baker sat beside her with the poise of someone who had learned early that showing too much interest in anything was a form of weakness.\n\nThat night, returning to my own shore, I noticed my neighbor standing alone on his dock, arms extended toward the darkness across the water. I could make out nothing but a single green light, minute and far away, trembling at the end of a pier. When I looked again, he was gone, and I was left with the uneasy sense that I had witnessed something private — a gesture of longing so naked it should not have been visible to strangers.",
+      "annotations": [
+        {
+          "id": "gg-1-1",
+          "startOffset": 0,
+          "endOffset": 180,
+          "type": "character-development",
+          "label": "Nick's Unreliable Reserve",
+          "note": "Nick's opening claim to withhold judgment is immediately undercut by his own narration, establishing him as a less reliable guide than he presents himself to be."
+        },
+        {
+          "id": "gg-1-2",
+          "startOffset": 560,
+          "endOffset": 780,
+          "type": "theme",
+          "label": "Old Money's Physical Authority",
+          "note": "Tom's body becomes a metaphor for inherited privilege — powerful but purposeless, strength without moral direction."
+        },
+        {
+          "id": "gg-1-3",
+          "startOffset": 1350,
+          "endOffset": 1600,
+          "type": "foreshadowing",
+          "label": "The Green Light",
+          "note": "The novel's central symbol appears in its first chapter — Gatsby reaching toward Daisy's dock, toward the past, toward an ideal that recedes even as he stretches for it."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Gatsby's Party",
+      "summary": "Nick attends one of Gatsby's legendary parties, a spectacle of excess and anonymity. Amid the champagne and orchestra, he finally meets his mysterious host, who proves surprisingly ordinary — and oddly earnest.",
+      "sentiment": 0.5,
+      "characterIds": ["nick-carraway", "jay-gatsby", "jordan-baker"],
+      "dominantThemes": ["Wealth & Class", "Illusion vs Reality"],
+      "text": "The party began at dusk, or rather, dusk was when the casual observer first noticed that the grounds of the mansion next door had been transformed into something between a carnival and a cathedral. Caterers arrived with enough food to feed a small nation, and a full orchestra — not a band, an orchestra — began tuning on a platform wreathed in colored lights. By nine o'clock the lawns were full of people who had not been invited, which seemed to be the point, or at least no one corrected the impression.\n\nI wandered through rooms where the air tasted of champagne and the laughter had the bright, slightly desperate quality of people determined to enjoy themselves whether they felt like it or not. Conversations overlapped and dissolved. A woman in a yellow dress was crying in a corner while her companion tried to interest her in the lobster. A man was explaining the stock market to a golden retriever. The normal rules of cause and effect seemed to have been temporarily suspended.\n\nI found Gatsby himself on the terrace, and did not at first know him. I had been expecting someone older, louder, more visibly corrupt — someone whose exterior matched the extravagance of his entertainment. Instead, the man who introduced himself with a smile of peculiar warmth was young, handsome, and possessed of a formality that seemed borrowed from an earlier century. He called me 'old sport' with such conviction that I almost believed we had a history I had forgotten.\n\nAs the night deepened and the parties' noise rose to compete with the stars, I found myself thinking that the whole magnificent spectacle was not really a party at all. It was a signal fire, burning on the shore, hoping to be seen by a single pair of eyes across the water. Everything — the music, the champagne, the laughter of a hundred strangers — was an elaborate invitation addressed to one person who had not yet come.",
+      "annotations": [
+        {
+          "id": "gg-3-1",
+          "startOffset": 0,
+          "endOffset": 250,
+          "type": "literary-device",
+          "label": "Carnival and Cathedral",
+          "note": "The juxtaposition of sacred and profane captures the quasi-religious nature of Gatsby's parties — worship services at the altar of wealth and spectacle."
+        },
+        {
+          "id": "gg-3-2",
+          "startOffset": 900,
+          "endOffset": 1100,
+          "type": "character-development",
+          "label": "Gatsby's Disarming Earnestness",
+          "note": "Nick's surprise at Gatsby's genuine warmth begins to distinguish the man from the myth, introducing the tension between Gatsby's authentic self and his constructed persona."
+        },
+        {
+          "id": "gg-3-3",
+          "startOffset": 1350,
+          "endOffset": 1600,
+          "type": "theme",
+          "label": "The Party as Signal Fire",
+          "note": "The realization that Gatsby's extravagance is directed at a single person transforms the spectacle from mere excess into an act of devotion — grotesque and touching in equal measure."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "The Reunion",
+      "summary": "Nick arranges for Gatsby and Daisy to meet at his cottage. Their reunion is awkward, then electric, then suffused with a tenderness that makes Nick feel like an intruder in his own home.",
+      "sentiment": 0.7,
+      "characterIds": ["nick-carraway", "jay-gatsby", "daisy-buchanan"],
+      "dominantThemes": ["Time & Memory", "Illusion vs Reality", "American Dream"],
+      "text": "The day of the reunion dawned with the kind of nervous rain that stops and starts as though it too cannot decide whether to go through with things. Gatsby arrived at my cottage half an hour early, wearing a white flannel suit and an expression of barely controlled panic. He had sent a man to cut my grass. He had sent another to fill my rooms with flowers. The gesture was touching in its excess — a man trying to arrange the entire world as a backdrop for a single moment.\n\nDaisy arrived precisely on time, which somehow made everything worse. The first minutes were agonizing in the way that only long-anticipated meetings can be. Gatsby knocked a clock off the mantelpiece. Daisy's chatter had the bright fragility of spun glass. I excused myself to stand in the rain, understanding that my role in this particular drama was to provide the setting and then disappear.\n\nWhen I returned, the transformation was complete. The nervousness had burned away, and what remained was something I had never seen on Gatsby's face before: simple, uncomplicated happiness. He was showing Daisy his house across the bay, pointing at it through the rain as though he were showing her the future rather than a building. Daisy was crying, but they were the tears of someone being given something she had forgotten she wanted.\n\nThere was a moment, I recall, when Gatsby held up a stack of his beautiful shirts — silk and linen and thick flannel — and let them cascade over a table, and Daisy buried her face in them and wept. It was absurd and deeply moving. The shirts were not shirts. They were evidence — proof that James Gatz had crossed some unimaginable distance between what he had been and what he had become, and that the crossing had been made for her.",
+      "annotations": [
+        {
+          "id": "gg-5-1",
+          "startOffset": 0,
+          "endOffset": 180,
+          "type": "literary-device",
+          "label": "Pathetic Fallacy",
+          "note": "The indecisive rain mirrors Gatsby's emotional state — the weather itself seems uncertain whether this reunion will succeed or fail."
+        },
+        {
+          "id": "gg-5-2",
+          "startOffset": 600,
+          "endOffset": 800,
+          "type": "character-development",
+          "label": "Gatsby's Vulnerability",
+          "note": "The knocked-over clock is both physical comedy and potent symbol — Gatsby literally disrupting time, trying to push the past into the present."
+        },
+        {
+          "id": "gg-5-3",
+          "startOffset": 1250,
+          "endOffset": 1500,
+          "type": "theme",
+          "label": "Shirts as Proof of Transformation",
+          "note": "The famous shirts scene transforms material wealth into emotional evidence. Daisy weeps not at beauty but at the magnitude of Gatsby's transformation — and perhaps at what it cost them both."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Bearing On",
+      "summary": "After Gatsby's murder and sparsely attended funeral, Nick reflects on the meaning of Gatsby's dream. He prepares to leave the East, carrying with him a vision of the green light and the impossible promise it represents.",
+      "sentiment": -0.5,
+      "characterIds": ["nick-carraway", "jay-gatsby", "tom-buchanan"],
+      "dominantThemes": ["American Dream", "Moral Decay", "Time & Memory"],
+      "text": "Nobody came. That was the fact that defined Gatsby's funeral and, in its way, defined everything. The hundreds who had drunk his champagne and danced on his lawns and speculated about his past could not, it seemed, find the time to witness his burial. I tried to reach people — called numbers, sent messages — and was met with the particular silence of those who have already moved on to the next entertainment. Owl Eyes came, and stood in the rain, and said something about the books being real after all.\n\nI saw Tom Buchanan one last time on Fifth Avenue, and he told me, with the casual certainty of a man who has never been troubled by self-examination, that Gatsby had deserved what he got. I could not hate him. Hating Tom Buchanan would have been like hating the weather — he was a force without consciousness, a thing that damaged because damaging was its nature. He and Daisy were careless people who smashed things and then retreated into their money and let other people clean up the mess.\n\nBefore I left West Egg, I walked down to the beach on the last night and thought about what Gatsby had believed in — the green light, the orgastic future that year by year recedes before us. He had come so far, invented so much, wanted so desperately, and the object of all that magnificent effort had been unworthy of it. But the effort itself — the sheer audacity of believing you could repeat the past, that you could reach across the water and pull your dream toward you — that was something I could not dismiss.\n\nSo we beat on, I thought, boats against the current. The continent stretched behind me in the darkness, green and fresh and full of the same promise that had once beckoned Gatsby, and before him, the Dutch sailors who saw for the first time a new world commensurate with their capacity for wonder. The dream was older than any of us. It would outlast all of us. And still we would reach for it, knowing it moved always just beyond our grasp.",
+      "annotations": [
+        {
+          "id": "gg-9-1",
+          "startOffset": 0,
+          "endOffset": 170,
+          "type": "theme",
+          "label": "The Cost of Carelessness",
+          "note": "The empty funeral is the novel's most damning indictment — Gatsby's guests consumed his hospitality without ever seeing him, a metaphor for the hollowness of the world he aspired to join."
+        },
+        {
+          "id": "gg-9-2",
+          "startOffset": 550,
+          "endOffset": 800,
+          "type": "character-development",
+          "label": "Careless People",
+          "note": "Nick's final judgment of Tom and Daisy — 'careless people' — is the novel's moral verdict, delivered with exhaustion rather than outrage."
+        },
+        {
+          "id": "gg-9-3",
+          "startOffset": 1200,
+          "endOffset": 1500,
+          "type": "literary-device",
+          "label": "Boats Against the Current",
+          "note": "The novel's closing metaphor universalizes Gatsby's personal tragedy into the human condition — all of us reaching for a past that recedes, borne ceaselessly into the future."
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "text": "I hope she'll be a fool — that's the best thing a girl can be in this world, a beautiful little fool.",
+      "chapter": 1,
+      "character": "Daisy Buchanan",
+      "significance": "Daisy's remark about her daughter reveals her own disillusionment — awareness of the world's cruelty expressed as a wish for ignorance."
+    },
+    {
+      "text": "He had one of those rare smiles with a quality of eternal reassurance in it, that you may come across four or five times in life.",
+      "chapter": 3,
+      "character": "Nick Carraway",
+      "significance": "Nick's description of Gatsby's smile captures the essential paradox: Gatsby's most genuine quality is his ability to make people believe in something manufactured."
+    },
+    {
+      "text": "Can't repeat the past? Why of course you can!",
+      "chapter": 6,
+      "character": "Jay Gatsby",
+      "significance": "The novel's thesis statement and its tragic flaw in five words — Gatsby's magnificent delusion that willpower can reverse time."
+    },
+    {
+      "text": "They were careless people, Tom and Daisy — they smashed up things and creatures and then retreated back into their money.",
+      "chapter": 9,
+      "character": "Nick Carraway",
+      "significance": "Nick's definitive moral judgment, reducing the Buchanans to their essential quality: the privilege of never facing consequences."
+    },
+    {
+      "text": "So we beat on, boats against the current, borne back ceaselessly into the past.",
+      "chapter": 9,
+      "character": "Nick Carraway",
+      "significance": "One of American literature's most celebrated closing lines — a universal metaphor for the human struggle against time and the impossibility of recapturing what is lost."
+    },
+    {
+      "text": "Gatsby believed in the green light, the orgastic future that year by year recedes before us.",
+      "chapter": 9,
+      "character": "Nick Carraway",
+      "significance": "The green light transcends Gatsby's personal obsession to become a symbol of all human aspiration — always visible, never reachable."
+    }
+  ]
+}

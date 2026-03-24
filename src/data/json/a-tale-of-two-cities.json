@@ -1,0 +1,325 @@
+{
+  "slug": "a-tale-of-two-cities",
+  "title": "A Tale of Two Cities",
+  "author": "Charles Dickens",
+  "year": 1859,
+  "coverColor": "#7c2d12",
+  "synopsis": "Set against the backdrop of the French Revolution, A Tale of Two Cities follows the intertwined fates of Charles Darnay, a French aristocrat who renounces his heritage, and Sydney Carton, a dissolute English barrister who finds redemption through sacrifice. At the heart of their connection is Lucie Manette, whose love transforms both men. As revolutionary violence engulfs Paris, the novel explores themes of resurrection, duality, and the tension between justice and vengeance, culminating in one of literature's most famous acts of self-sacrifice.",
+  "chapterCount": 45,
+  "genres": ["Historical Fiction", "Social Commentary", "Drama", "Romance", "Political Fiction"],
+  "characters": [
+    {
+      "id": "sydney-carton",
+      "name": "Sydney Carton",
+      "description": "A brilliant but dissolute English barrister who squanders his talents in drink and self-loathing. His unrequited love for Lucie Manette ultimately inspires his greatest act of courage and redemption.",
+      "role": "protagonist"
+    },
+    {
+      "id": "charles-darnay",
+      "name": "Charles Darnay",
+      "description": "A French aristocrat born into the cruel Evrémonde family who renounces his title and inheritance, choosing to live honestly in England. His noble character draws him back to Paris at great personal peril.",
+      "role": "protagonist"
+    },
+    {
+      "id": "lucie-manette",
+      "name": "Lucie Manette",
+      "description": "A compassionate and steadfast young woman whose love serves as a golden thread binding those around her. She recalls her father from madness and inspires devotion in both Darnay and Carton.",
+      "role": "supporting"
+    },
+    {
+      "id": "dr-manette",
+      "name": "Dr. Alexandre Manette",
+      "description": "A physician imprisoned for eighteen years in the Bastille who is 'recalled to life' by his daughter Lucie. His hidden testimony becomes a pivotal instrument of fate during the Revolution.",
+      "role": "supporting"
+    },
+    {
+      "id": "madame-defarge",
+      "name": "Madame Defarge",
+      "description": "A cold and implacable revolutionary who knits a register of those condemned to die. Driven by a secret personal vendetta against the Evrémonde family, she embodies the destructive force of vengeance.",
+      "role": "antagonist"
+    },
+    {
+      "id": "jarvis-lorry",
+      "name": "Jarvis Lorry",
+      "description": "An elderly banker at Tellson's Bank who serves as a loyal friend and protector of the Manette family. Though he insists he is merely a man of business, his actions reveal deep personal devotion.",
+      "role": "supporting"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "charles-darnay",
+      "target": "lucie-manette",
+      "type": "romantic",
+      "strength": 9,
+      "description": "Darnay and Lucie share a deep, devoted marriage that anchors the novel's emotional center and provides a vision of domestic peace amid revolutionary chaos."
+    },
+    {
+      "source": "sydney-carton",
+      "target": "lucie-manette",
+      "type": "romantic",
+      "strength": 8,
+      "description": "Carton's unrequited love for Lucie ennobles him and ultimately drives his decision to sacrifice his life so that she and her family may live in happiness."
+    },
+    {
+      "source": "sydney-carton",
+      "target": "charles-darnay",
+      "type": "rivalry",
+      "strength": 7,
+      "description": "Carton and Darnay share an uncanny physical resemblance and compete for Lucie's affection, yet their rivalry transforms into a bond sealed by Carton's ultimate sacrifice."
+    },
+    {
+      "source": "lucie-manette",
+      "target": "dr-manette",
+      "type": "familial",
+      "strength": 10,
+      "description": "Lucie's golden thread of love recalls her father from the living death of his imprisonment, restoring his sanity and giving him reason to live."
+    },
+    {
+      "source": "jarvis-lorry",
+      "target": "dr-manette",
+      "type": "friendship",
+      "strength": 7,
+      "description": "Lorry serves as Dr. Manette's steadfast friend and practical guardian, bridging the worlds of London commerce and personal loyalty across decades."
+    },
+    {
+      "source": "madame-defarge",
+      "target": "charles-darnay",
+      "type": "rivalry",
+      "strength": 9,
+      "description": "Madame Defarge pursues Darnay with lethal determination, seeking to destroy every last member of the Evrémonde family to avenge her sister's suffering."
+    },
+    {
+      "source": "jarvis-lorry",
+      "target": "lucie-manette",
+      "type": "mentor",
+      "strength": 6,
+      "description": "Lorry acts as a paternal figure and protector to Lucie, guiding her through the perilous journey of reclaiming her father and navigating the dangers of revolution."
+    },
+    {
+      "source": "dr-manette",
+      "target": "charles-darnay",
+      "type": "familial",
+      "strength": 7,
+      "description": "Though Darnay is the nephew of Dr. Manette's persecutors, Manette overcomes his anguish to accept Darnay as a son-in-law, embodying the novel's theme of forgiveness."
+    }
+  ],
+  "themes": [
+    {
+      "name": "Resurrection",
+      "frequency": 88,
+      "color": "#10b981",
+      "keywords": ["recalled to life", "buried", "reborn", "restoration", "renewal", "rising"]
+    },
+    {
+      "name": "Sacrifice",
+      "frequency": 92,
+      "color": "#ef4444",
+      "keywords": ["selflessness", "devotion", "martyrdom", "surrender", "redemption", "atonement"]
+    },
+    {
+      "name": "Justice vs Revenge",
+      "frequency": 85,
+      "color": "#6366f1",
+      "keywords": ["tribunal", "verdict", "guillotine", "vengeance", "retribution", "oppression"]
+    },
+    {
+      "name": "Duality",
+      "frequency": 80,
+      "color": "#8b5cf6",
+      "keywords": ["doubles", "mirror", "resemblance", "contrast", "two cities", "light and shadow"]
+    },
+    {
+      "name": "Revolution",
+      "frequency": 90,
+      "color": "#f59e0b",
+      "keywords": ["uprising", "Bastille", "liberty", "tyranny", "mob", "aristocracy", "republic"]
+    }
+  ],
+  "sentimentArc": [
+    { "chapter": 1, "sentiment": -0.3, "label": "The ominous age of contradictions" },
+    { "chapter": 4, "sentiment": 0.1, "label": "Lorry's secret mission to Paris" },
+    { "chapter": 6, "sentiment": -0.5, "label": "Dr. Manette found broken in garret" },
+    { "chapter": 10, "sentiment": 0.4, "label": "Lucie restores her father's mind" },
+    { "chapter": 14, "sentiment": 0.6, "label": "Darnay and Lucie's marriage" },
+    { "chapter": 21, "sentiment": -0.7, "label": "Storming of the Bastille" },
+    { "chapter": 25, "sentiment": -0.4, "label": "The Reign of Terror begins" },
+    { "chapter": 30, "sentiment": -0.6, "label": "Darnay arrested in Paris" },
+    { "chapter": 35, "sentiment": 0.2, "label": "Darnay acquitted, then re-arrested" },
+    { "chapter": 39, "sentiment": -0.8, "label": "Darnay condemned to the guillotine" },
+    { "chapter": 43, "sentiment": -0.2, "label": "Carton conceives his plan" },
+    { "chapter": 45, "sentiment": 0.7, "label": "Carton's sacrifice and transcendent vision" }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "The Period",
+      "summary": "The novel opens with a sweeping panoramic view of England and France in 1775, establishing the age of contradictions and foreshadowing the revolutionary upheaval to come. The narrator contrasts the two nations and hints at the darkness gathering beneath the surface of society.",
+      "sentiment": -0.3,
+      "characterIds": [],
+      "dominantThemes": ["Duality", "Revolution"],
+      "text": "It was an age of paradox, and the world turned upon its axis with a grinding unease that men of commerce and men of letters alike could feel in their very bones. In England, the throne sat heavily upon a monarch of unremarkable countenance, while across the Channel, a king and queen of France carried their divine authority with a lightness that bordered upon oblivion. The woodman Fate had already marked the great trees for felling, and the farmer Death had set his plough into furrows that would soon enough be watered with blood.\n\nThe roads between the two capitals were thick with mud and peril, haunted by highwaymen and patrolled by soldiers whose loyalties were as shifting as the mists upon the Dover cliffs. Messages passed between London and Paris with agonizing slowness, each dispatch bearing tidings that were already stale before the seal was broken. Yet beneath this sluggish commerce of information, currents of terrible urgency were running—currents that would, in their appointed time, sweep away thrones and altars, prisons and privileges, with equal and unsparing force.\n\nIn the cellars and garrets of Saint Antoine, hunger wore its most abject face, and children grew old before they had properly been young. The aristocracy of France drank its chocolate in gilded chambers and pronounced upon the affairs of state with a serene confidence that would have been admirable had it not been so profoundly, so catastrophically mistaken. For the storm was coming—not the gentle English rain that nourished green meadows and fat sheep, but a tempest of iron and fire that would remake the world entire.",
+      "annotations": [
+        {
+          "id": "ch1-ann1",
+          "startOffset": 0,
+          "endOffset": 105,
+          "type": "theme",
+          "label": "Duality",
+          "note": "The opening immediately establishes the novel's central motif of duality and contradiction, mirroring the 'two cities' of the title."
+        },
+        {
+          "id": "ch1-ann2",
+          "startOffset": 350,
+          "endOffset": 520,
+          "type": "foreshadowing",
+          "label": "Revolutionary Violence",
+          "note": "The metaphor of the woodman and farmer (Fate and Death) foreshadows the mass executions of the Reign of Terror."
+        },
+        {
+          "id": "ch1-ann3",
+          "startOffset": 1100,
+          "endOffset": 1300,
+          "type": "literary-device",
+          "label": "Irony",
+          "note": "The aristocracy's 'serene confidence' is rendered deeply ironic by the narrator's omniscient knowledge of the revolution that will destroy them."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "The Shoemaker",
+      "summary": "Mr. Lorry and Lucie Manette visit a garret in Saint Antoine where Dr. Manette has been kept by the Defarges since his release from the Bastille. They find him in a wretched state, obsessively making shoes, his mind shattered by eighteen years of solitary imprisonment. Lucie's tender presence begins to pierce the fog of his madness.",
+      "sentiment": -0.5,
+      "characterIds": ["dr-manette", "lucie-manette", "jarvis-lorry", "madame-defarge"],
+      "dominantThemes": ["Resurrection", "Duality"],
+      "text": "The garret was a tomb for the living. What little light found its way through the single begrimed window fell upon a scene of such desolation that Mr. Lorry, man of business though he professed himself to be, felt his professional composure waver and nearly break. In the corner, bent over a cobbler's bench with the concentration of one who has made repetition his only fortress against madness, sat a white-haired figure so wasted and spectral that he seemed less a man than a memory of one. His fingers moved with mechanical precision over the leather, and from his lips came a murmuring so low and continuous that it might have been the sound of the building itself settling into its ancient foundations.\n\nLucie Manette stood upon the threshold, and whatever she had been told, whatever she had steeled herself to witness, it was plain that the reality before her surpassed all preparation. Her father—for this ruined creature was indeed her father—did not look up. He had not looked up, perhaps, in years. The world beyond his bench had ceased to exist for him; he had retreated into the rhythmic tap of his hammer and the smell of leather as a shipwrecked man retreats to the last fragment of timber in an empty sea. When she spoke to him, calling him by a name he had not heard since the heavy door of One Hundred and Five, North Tower had closed upon his former life, something stirred behind his hollow eyes—a flicker, no more, like a candle flame guttering in a sealed vault.\n\nShe knelt beside him and took his wasted hand in hers, and the shoe fell unfinished to the floor. He examined her golden hair with trembling fingers, comparing it to a few strands he kept folded in a rag about his neck—the last relic of a wife he could scarcely remember and a child he had never known. The recognition, when it came, did not arrive as a thunderclap but as a slow tide, rising by imperceptible degrees until it overflowed the broken walls of his reason and he wept against her shoulder with the helpless, shuddering sobs of a man recalled, after eighteen years of burial, to something that resembled life.",
+      "annotations": [
+        {
+          "id": "ch6-ann1",
+          "startOffset": 0,
+          "endOffset": 35,
+          "type": "literary-device",
+          "label": "Metaphor",
+          "note": "The garret as a 'tomb for the living' encapsulates Dr. Manette's state between death and life, reinforcing the resurrection theme."
+        },
+        {
+          "id": "ch6-ann2",
+          "startOffset": 850,
+          "endOffset": 1050,
+          "type": "character-development",
+          "label": "Dr. Manette's Imprisonment Trauma",
+          "note": "Manette's obsessive shoemaking reveals how his psyche has adapted to imprisonment, replacing identity with mechanical routine as a survival mechanism."
+        },
+        {
+          "id": "ch6-ann3",
+          "startOffset": 1350,
+          "endOffset": 1600,
+          "type": "theme",
+          "label": "Resurrection",
+          "note": "The phrase 'recalled to life' echoes throughout the novel. Here, Lucie's love physically enacts the resurrection that has until now been only a cryptic message."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "title": "Echoing Footsteps",
+      "summary": "As years pass peacefully in the Darnay-Manette household in London, the echoing footsteps of revolution grow louder in France. The chapter culminates in the storming of the Bastille, led by Defarge, as the long-oppressed people of Saint Antoine rise in fury against the old regime.",
+      "sentiment": -0.7,
+      "characterIds": ["lucie-manette", "charles-darnay", "madame-defarge", "dr-manette"],
+      "dominantThemes": ["Revolution", "Justice vs Revenge"],
+      "text": "In the quiet corner of Soho where the Darnay household kept its gentle rhythm, Lucie sometimes fancied she could hear footsteps echoing from a great distance—not the footsteps of any person she knew, but a vast and nameless multitude whose tread grew heavier with each passing season. She would stand at the window in the evening light, her children playing at her feet, and listen to the ordinary sounds of London as though straining to catch some deeper resonance beneath them. It was fancy, she told herself; it was nothing more than the restlessness that seizes the mind when happiness seems too complete, too fragile to endure.\n\nBut in Saint Antoine, the footsteps were no fancy. They were the thunder of ten thousand feet upon the cobblestones, the roar of a populace that had starved in silence for generations and now found, in its collective rage, a voice that shook the very stones of Paris. Defarge was at the front of the tide, his countenance terrible with purpose, and beside him strode his wife, knitting still, counting still, her dark eyes cataloguing every face and every name with the pitiless exactitude of a recording angel. The Bastille—that monstrous fortress that had swallowed Dr. Manette and so many thousands of others into its stone belly—trembled upon its foundations as the sea of humanity broke against its walls.\n\nThe old order fell that day, not with the quiet dignity of a tree in autumn but with the rending, splintering crash of a great edifice pulled down by ropes and fury. The governor's head was mounted upon a pike, and the keys of the fortress were borne through the streets in triumph, and the prisoners—those few who still lived—staggered blinking into a sunlight they had forgotten existed. The stones of the Bastille would be carried away as souvenirs, as relics of a world that was ending, and in the wine-shops and marketplaces of Saint Antoine, men and women danced with a savage exultation that was at once glorious and terrible to behold.",
+      "annotations": [
+        {
+          "id": "ch21-ann1",
+          "startOffset": 0,
+          "endOffset": 250,
+          "type": "foreshadowing",
+          "label": "The Approaching Storm",
+          "note": "Lucie's sense of distant footsteps is a masterful device linking domestic tranquility to the revolutionary violence that will soon shatter it."
+        },
+        {
+          "id": "ch21-ann2",
+          "startOffset": 700,
+          "endOffset": 920,
+          "type": "character-development",
+          "label": "Madame Defarge's Relentlessness",
+          "note": "Madame Defarge's continued knitting amid the storming of the Bastille reveals her chilling singularity of purpose—she is not swept up in revolution but has been engineering it."
+        },
+        {
+          "id": "ch21-ann3",
+          "startOffset": 1100,
+          "endOffset": 1400,
+          "type": "theme",
+          "label": "Justice vs Revenge",
+          "note": "The fall of the Bastille blurs the line between righteous justice and brutal vengeance, a tension that will define the remainder of the novel."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "title": "The Knitting Done",
+      "summary": "Sydney Carton, having secretly switched places with Charles Darnay in prison, rides the tumbril to the guillotine. In his final moments, he finds peace and purpose, envisioning a future where those he loves will live in happiness and remember his sacrifice. His death fulfills the novel's deepest theme of resurrection through love.",
+      "sentiment": 0.7,
+      "characterIds": ["sydney-carton", "charles-darnay", "lucie-manette"],
+      "dominantThemes": ["Sacrifice", "Resurrection"],
+      "text": "The tumbril moved through the streets of Paris with the slow, inexorable rhythm of a funeral procession, though the crowds that lined the route treated it as spectacle rather than solemnity. Sydney Carton stood among the condemned with a stillness that distinguished him from his wretched companions, whose faces bore the various masks of terror, defiance, and blank incomprehension that the proximity of violent death imposes upon the human countenance. His own face was serene—not with the serenity of ignorance or resignation, but with the luminous calm of a man who has, after a lifetime of purposeless wandering, found at last the one act that justifies and redeems the whole.\n\nBeside him in the cart, a young seamstress who had been condemned on evidence so threadbare that even the tribunal had hesitated before pronouncing sentence clung to his hand with the desperate trust of a child. She had noticed the peace in his bearing and drawn close to it as one draws close to a fire in winter. He spoke to her gently, and if his words carried the cadence of a prayer, it was a prayer not of supplication but of thanksgiving—for he saw, with a clarity that transcended the mortal moment, the lives that his death would purchase: Lucie and her child safe in England, Darnay restored to his family, and even his own wasted name redeemed and cherished in the years to come.\n\nThe blade caught the light of the pale afternoon sun as he mounted the scaffold. The crowd roared, as crowds will, but he did not hear them. In his mind's eye he beheld a city far more beautiful than this one, and a people risen from the ashes of their suffering into a brilliance that the present darkness could not diminish. He saw a child bearing his name, playing in the sunlight of an England at peace. He saw Lucie, grey-haired and gentle, speaking of him with tenderness to her grandchildren. And in that final, transcendent instant before the world fell away, the truth of his vision burned with a light that no guillotine could extinguish: it was a far, far better thing that he did than he had ever done, and a far, far better rest that he went to than he had ever known.",
+      "annotations": [
+        {
+          "id": "ch45-ann1",
+          "startOffset": 0,
+          "endOffset": 200,
+          "type": "literary-device",
+          "label": "Contrast and Irony",
+          "note": "The crowd treats Carton's sacrificial death as entertainment, underscoring the gulf between the public spectacle of the Terror and the private act of love it unwittingly enables."
+        },
+        {
+          "id": "ch45-ann2",
+          "startOffset": 600,
+          "endOffset": 850,
+          "type": "character-development",
+          "label": "Carton's Redemption",
+          "note": "Carton's transformation from dissolute cynic to selfless martyr reaches its apex. His calm is not defeat but the fullest expression of the love he once believed himself incapable of."
+        },
+        {
+          "id": "ch45-ann3",
+          "startOffset": 1400,
+          "endOffset": 1700,
+          "type": "theme",
+          "label": "Sacrifice and Resurrection",
+          "note": "Carton's prophetic vision of the future fuses the themes of sacrifice and resurrection: his death is not an ending but a beginning, purchasing new life for those he loves."
+        }
+      ]
+    }
+  ],
+  "quotes": [
+    {
+      "text": "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness.",
+      "chapter": 1,
+      "significance": "The novel's iconic opening establishes the central theme of duality and the paradoxical nature of the era, setting the stage for every contrast that follows."
+    },
+    {
+      "text": "It is a far, far better thing that I do, than I have ever done; it is a far, far better rest that I go to than I have ever known.",
+      "chapter": 45,
+      "character": "Sydney Carton",
+      "significance": "Carton's final words crystallize the novel's themes of sacrifice and resurrection, transforming a wasted life into an act of supreme meaning."
+    },
+    {
+      "text": "I see a beautiful city and a brilliant people rising from this abyss. I see the lives for which I lay down my life, peaceful, useful, prosperous and happy.",
+      "chapter": 45,
+      "character": "Sydney Carton",
+      "significance": "Carton's prophetic vision redeems the violence of the Revolution by imagining a future born from sacrifice rather than vengeance."
+    },
+    {
+      "text": "Recalled to life.",
+      "chapter": 4,
+      "character": "Jarvis Lorry",
+      "significance": "This cryptic message encapsulates the novel's overarching theme of resurrection, referring initially to Dr. Manette's release but resonating through every character's arc."
+    },
+    {
+      "text": "Knitting, knitting, knitting. The fingers moved with a terrible patience, and every stitch was a name, and every name was a death.",
+      "chapter": 21,
+      "character": "Madame Defarge",
+      "significance": "Madame Defarge's knitting register symbolizes the cold, systematic nature of revolutionary vengeance and the dehumanizing transformation of justice into mechanical retribution."
+    }
+  ]
+}
